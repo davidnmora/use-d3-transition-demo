@@ -2,12 +2,26 @@ import React, {useState, useCallback} from 'react';
 import './App.css';
 import TransitionableCircle from "./TransitionableCircle";
 
+const CIRCLE_RADIUS = 40
+
+const Title = () => (
+  <>
+    <h1>
+      <code>useD3Transition</code> animated circle demo
+    </h1>
+    <a href="https://www.npmjs.com/package/use-d3-transition" target="_blank">
+      <svg width="90" height="90">
+        <image xlinkHref="https://img.shields.io/npm/v/use-d3-transition.svg?style=flat"/>
+      </svg>
+    </a>
+  </>
+)
 
 function App() {
   const svgCanvas = {
     width: window.innerWidth * 0.8,
     height: 200,
-    margin: 20,
+    margin: CIRCLE_RADIUS,
   }
   const left = {
     cx: svgCanvas.margin,
@@ -27,7 +41,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1><code>useD3Transition</code> Demo: animated circle</h1>
+      <Title/>
       <div>
         <button onClick={togglePosition}>Toggle circle position</button>
       </div>
@@ -36,7 +50,7 @@ function App() {
           cx={circlePosition.cx}
           cy={circlePosition.cy}
           
-          r={20}
+          r={CIRCLE_RADIUS}
           style={{fill: 'skyblue'}}
         />
       </svg>
