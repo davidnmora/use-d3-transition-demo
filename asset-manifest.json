@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jazz-chords-vis/static/css/main.10f181bf.chunk.css",
-    "main.js": "/jazz-chords-vis/static/js/main.ed6b36c5.chunk.js",
-    "main.js.map": "/jazz-chords-vis/static/js/main.ed6b36c5.chunk.js.map",
-    "runtime-main.js": "/jazz-chords-vis/static/js/runtime-main.e4326450.js",
-    "runtime-main.js.map": "/jazz-chords-vis/static/js/runtime-main.e4326450.js.map",
-    "static/js/2.dfdc0c3f.chunk.js": "/jazz-chords-vis/static/js/2.dfdc0c3f.chunk.js",
-    "static/js/2.dfdc0c3f.chunk.js.map": "/jazz-chords-vis/static/js/2.dfdc0c3f.chunk.js.map",
-    "index.html": "/jazz-chords-vis/index.html",
-    "precache-manifest.c99e6a7d095d779d7d75343a8a9fc439.js": "/jazz-chords-vis/precache-manifest.c99e6a7d095d779d7d75343a8a9fc439.js",
-    "service-worker.js": "/jazz-chords-vis/service-worker.js",
-    "static/css/main.10f181bf.chunk.css.map": "/jazz-chords-vis/static/css/main.10f181bf.chunk.css.map",
-    "static/js/2.dfdc0c3f.chunk.js.LICENSE.txt": "/jazz-chords-vis/static/js/2.dfdc0c3f.chunk.js.LICENSE.txt"
+    "main.css": "/use-d3-transition-demo/static/css/main.10f181bf.chunk.css",
+    "main.js": "/use-d3-transition-demo/static/js/main.8e2cc4d9.chunk.js",
+    "main.js.map": "/use-d3-transition-demo/static/js/main.8e2cc4d9.chunk.js.map",
+    "runtime-main.js": "/use-d3-transition-demo/static/js/runtime-main.184c76d8.js",
+    "runtime-main.js.map": "/use-d3-transition-demo/static/js/runtime-main.184c76d8.js.map",
+    "static/js/2.dfdc0c3f.chunk.js": "/use-d3-transition-demo/static/js/2.dfdc0c3f.chunk.js",
+    "static/js/2.dfdc0c3f.chunk.js.map": "/use-d3-transition-demo/static/js/2.dfdc0c3f.chunk.js.map",
+    "index.html": "/use-d3-transition-demo/index.html",
+    "precache-manifest.dadec128e2df689c6bfc03bd11999686.js": "/use-d3-transition-demo/precache-manifest.dadec128e2df689c6bfc03bd11999686.js",
+    "service-worker.js": "/use-d3-transition-demo/service-worker.js",
+    "static/css/main.10f181bf.chunk.css.map": "/use-d3-transition-demo/static/css/main.10f181bf.chunk.css.map",
+    "static/js/2.dfdc0c3f.chunk.js.LICENSE.txt": "/use-d3-transition-demo/static/js/2.dfdc0c3f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4326450.js",
+    "static/js/runtime-main.184c76d8.js",
     "static/js/2.dfdc0c3f.chunk.js",
     "static/css/main.10f181bf.chunk.css",
-    "static/js/main.ed6b36c5.chunk.js"
+    "static/js/main.8e2cc4d9.chunk.js"
   ]
 }
