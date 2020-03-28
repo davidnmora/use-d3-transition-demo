@@ -1,6 +1,7 @@
 import React, {useState, useCallback} from 'react';
-import './App.css';
+import './index.css';
 import TransitionableCircle from "./TransitionableCircle";
+
 
 const CIRCLE_RADIUS = 40
 const svgCanvas = {
