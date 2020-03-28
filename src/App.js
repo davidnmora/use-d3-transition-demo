@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useCallback} from 'react';
 import './App.css';
+import TransitionableCircle from "./TransitionableCircle";
 
 function App() {
+  const [circlePosition, setCirclePosition] = useState({cx: 100, cy: 100})
+  const togglePosition = useCallback(() => {
+    circlePosition.cx === 100
+      ? setCirclePosition({cx: 200, cy: 200})
+      : setCirclePosition({cx: 100, cy: 100})
+  }, [circlePosition])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1><code>useD3Transition</code> Demo: animated circle</h1>
+      <button onClick={togglePosition}>Toggle circle position</button>
+      <svg>
+        <TransitionableCircle
+          cx={circlePosition.cx}
+          cy={circlePosition.cy}
+          
+          r={50}
+          style={{fill: 'skyblue'}}
+        />
+      </svg>
     </div>
   );
 }
